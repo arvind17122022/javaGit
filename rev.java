@@ -8,8 +8,9 @@ public class rev {
         // Reverse string using loop
         for (int i = real.length() - 1; i >= 0; i--) {
             rev = rev + real.charAt(i);
+			System.out.println("Reversed string = " + rev);
         }
 
-        System.out.println("Reversed string = " + rev);
+        
     }
 }
